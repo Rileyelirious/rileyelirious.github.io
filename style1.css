@@ -7,6 +7,8 @@
 }
 
 body {
+    margin: 0;
+    display: grid;
     background-color: var(--bg-color);
 }
 
@@ -24,6 +26,8 @@ ul {
 }
 
 #main {
+    grid-column: 1;
+    grid-row: 1;
     border: 4px dashed var(--bg-color);
     background-color: var(--main-color);
     color: var(--text-color);
@@ -31,6 +35,18 @@ ul {
     max-width: 800px;
     min-height: 100dvh;
     margin: 2rem auto;
+}
+
+#background-image {
+    position: sticky;
+    margin: 0;
+    top: 0;
+    width: 100dvw;
+    height: 100dvh;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: -1;
+    filter: blur(5px) contrast(115%);
 }
 
 .main-header {
