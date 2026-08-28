@@ -37,6 +37,7 @@ ul {
     max-width: 800px;
     min-height: 100dvh;
     margin: 2rem auto;
+    filter: opacity(0.95);
 }
 
 #background-image {
