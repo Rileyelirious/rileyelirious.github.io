@@ -93,3 +93,20 @@ ul {
     margin: 5px;
     padding: 1rem;
 }
+
+.section-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--bg-color);
+    margin: 20px 0;
+}
+
+.section-divider::before,
+.section-divider::after {
+    content: '';
+    flex: 1;
+    width: 15rem;
+    border: 2px dashed var(--bg-color); /* Creates the line */
+    margin: 0 15px; /* Spacing between line and text */
+}
