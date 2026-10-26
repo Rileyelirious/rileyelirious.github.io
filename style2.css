@@ -34,8 +34,8 @@ ul {
     background-color: var(--main-color);
     color: var(--text-color);
     font-family: var(--main-font);
-    max-width: 900px;
-    min-width: 900px;
+    max-width: 1200px;
+    min-width: 1200px;
     min-height: 100dvh;
     margin: 2rem auto;
     filter: opacity(0.95);
