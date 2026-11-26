@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+:root {
+    --opacity: 80%;
+}
+
+@font-face {
+  font-family: "Cairopixel";
+  src: url("@/public/Cairopixel.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme inline {
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
@@ -8,7 +20,7 @@
 }
 
 .theme-main {
-    --primary: #0d0d0d;
+    --primary: #000000;
     --secondary: #132b22;
     --tertiary: #570e0e;
     --hue: 0deg;

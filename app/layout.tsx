@@ -1,22 +1,14 @@
-import "./globals.css";
-import Background from '@/components/Background';
-import Section from '@/components/Section';
-import Frame from '@/components/Frame';
+import "@/app/globals.css";
 
 export const metadata = { title: "riley's website" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>
+      <body style={{ fontFamily: "Cairopixel, sans-serif" }}>
         <div className="main">
           <main>
-            <Section theme="theme-main">
-              <Background />
-              <Frame>
-                {children}
-              </Frame>
-            </Section>
+            {children}
           </main>
         </div>
       </body>
